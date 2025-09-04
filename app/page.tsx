@@ -272,7 +272,7 @@ export default function LoopingChatInterface() {
   }, [userText, agentText, userFollowupText, agentFollowupText, state])
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-transparent flex items-center justify-center p-4">
       {/* Chat Container */}
       <motion.div
         initial={{ opacity: 0, y: 20, filter: "blur(10px)" }}
