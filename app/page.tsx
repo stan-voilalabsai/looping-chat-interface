@@ -282,8 +282,9 @@ export default function LoopingChatInterface() {
         {/* Chat Card */}
         <div
           ref={chatContainerRef}
-          className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 shadow-xl border border-slate-200/50 max-h-[80vh] overflow-y-auto scroll-smooth"
+          className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 shadow-xl border border-slate-200/50 h-[80vh] overflow-y-auto scroll-smooth flex flex-col"
         >
+          <div className="flex-1 min-h-0"></div>
           <div className="space-y-6">
             {/* User Message */}
             <AnimatePresence>
